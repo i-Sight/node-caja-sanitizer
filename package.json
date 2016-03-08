@@ -4,7 +4,7 @@
   "description": "Node wrapper for caja sanitizer for html/css",
   "main": "sanitizer.js",
   "scripts": {
-    "test": "tap ./test"
+    "test": "./node_modules/.bin/tap ./test"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,6 @@
   "author": "Alex Zelenskiy",
   "license": "Apache 2.0",
   "devDependencies": {
-    "tap": "~0.4.2"
+    "tap": "5.7.0"
   }
 }
